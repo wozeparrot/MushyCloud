@@ -1,0 +1,972 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FED21CC
+P 1500 1400
+F 0 "SW1" H 1500 1685 50  0000 C CNN
+F 1 "SW_Push" H 1500 1594 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 1500 1600 50  0001 C CNN
+F 3 "~" H 1500 1600 50  0001 C CNN
+	1    1500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D0
+U 1 1 5FED23B2
+P 1700 1550
+F 0 "D0" V 1746 1470 50  0000 R CNN
+F 1 "D" V 1655 1470 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 1700 1550 50  0001 C CNN
+F 3 "~" H 1700 1550 50  0001 C CNN
+	1    1700 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5FED59F9
+P 2150 1400
+F 0 "SW2" H 2150 1685 50  0000 C CNN
+F 1 "SW_Push" H 2150 1594 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 2150 1600 50  0001 C CNN
+F 3 "~" H 2150 1600 50  0001 C CNN
+	1    2150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5FED59FF
+P 2350 1550
+F 0 "D1" V 2396 1470 50  0000 R CNN
+F 1 "D" V 2305 1470 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 2350 1550 50  0001 C CNN
+F 3 "~" H 2350 1550 50  0001 C CNN
+	1    2350 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5FED70FD
+P 2800 1400
+F 0 "SW3" H 2800 1685 50  0000 C CNN
+F 1 "SW_Push" H 2800 1594 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 2800 1600 50  0001 C CNN
+F 3 "~" H 2800 1600 50  0001 C CNN
+	1    2800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5FED7103
+P 3000 1550
+F 0 "D2" V 3046 1470 50  0000 R CNN
+F 1 "D" V 2955 1470 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 3000 1550 50  0001 C CNN
+F 3 "~" H 3000 1550 50  0001 C CNN
+	1    3000 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5FED7109
+P 3450 1400
+F 0 "SW4" H 3450 1685 50  0000 C CNN
+F 1 "SW_Push" H 3450 1594 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 3450 1600 50  0001 C CNN
+F 3 "~" H 3450 1600 50  0001 C CNN
+	1    3450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5FED710F
+P 3650 1550
+F 0 "D3" V 3696 1470 50  0000 R CNN
+F 1 "D" V 3605 1470 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 3650 1550 50  0001 C CNN
+F 3 "~" H 3650 1550 50  0001 C CNN
+	1    3650 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5FED85FF
+P 4050 1400
+F 0 "SW5" H 4050 1685 50  0000 C CNN
+F 1 "SW_Push" H 4050 1594 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 4050 1600 50  0001 C CNN
+F 3 "~" H 4050 1600 50  0001 C CNN
+	1    4050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5FED8605
+P 4250 1550
+F 0 "D4" V 4296 1470 50  0000 R CNN
+F 1 "D" V 4205 1470 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 4250 1550 50  0001 C CNN
+F 3 "~" H 4250 1550 50  0001 C CNN
+	1    4250 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5FED860B
+P 4700 1400
+F 0 "SW6" H 4700 1685 50  0000 C CNN
+F 1 "SW_Push" H 4700 1594 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 4700 1600 50  0001 C CNN
+F 3 "~" H 4700 1600 50  0001 C CNN
+	1    4700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5FED8611
+P 4900 1550
+F 0 "D5" V 4946 1470 50  0000 R CNN
+F 1 "D" V 4855 1470 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 4900 1550 50  0001 C CNN
+F 3 "~" H 4900 1550 50  0001 C CNN
+	1    4900 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5FED8617
+P 5350 1400
+F 0 "SW7" H 5350 1685 50  0000 C CNN
+F 1 "SW_Push" H 5350 1594 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 5350 1600 50  0001 C CNN
+F 3 "~" H 5350 1600 50  0001 C CNN
+	1    5350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5FED861D
+P 5550 1550
+F 0 "D6" V 5596 1470 50  0000 R CNN
+F 1 "D" V 5505 1470 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 5550 1550 50  0001 C CNN
+F 3 "~" H 5550 1550 50  0001 C CNN
+	1    5550 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5FEE042C
+P 1500 2050
+F 0 "SW8" H 1500 2335 50  0000 C CNN
+F 1 "SW_Push" H 1500 2244 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 1500 2250 50  0001 C CNN
+F 3 "~" H 1500 2250 50  0001 C CNN
+	1    1500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5FEE0432
+P 1700 2200
+F 0 "D7" V 1746 2120 50  0000 R CNN
+F 1 "D" V 1655 2120 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 1700 2200 50  0001 C CNN
+F 3 "~" H 1700 2200 50  0001 C CNN
+	1    1700 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5FEE0438
+P 2150 2050
+F 0 "SW9" H 2150 2335 50  0000 C CNN
+F 1 "SW_Push" H 2150 2244 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 2150 2250 50  0001 C CNN
+F 3 "~" H 2150 2250 50  0001 C CNN
+	1    2150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5FEE043E
+P 2350 2200
+F 0 "D8" V 2396 2120 50  0000 R CNN
+F 1 "D" V 2305 2120 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 2350 2200 50  0001 C CNN
+F 3 "~" H 2350 2200 50  0001 C CNN
+	1    2350 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5FEE0444
+P 2800 2050
+F 0 "SW10" H 2800 2335 50  0000 C CNN
+F 1 "SW_Push" H 2800 2244 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 2800 2250 50  0001 C CNN
+F 3 "~" H 2800 2250 50  0001 C CNN
+	1    2800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5FEE044A
+P 3000 2200
+F 0 "D9" V 3046 2120 50  0000 R CNN
+F 1 "D" V 2955 2120 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 3000 2200 50  0001 C CNN
+F 3 "~" H 3000 2200 50  0001 C CNN
+	1    3000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5FEE0450
+P 3450 2050
+F 0 "SW11" H 3450 2335 50  0000 C CNN
+F 1 "SW_Push" H 3450 2244 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 3450 2250 50  0001 C CNN
+F 3 "~" H 3450 2250 50  0001 C CNN
+	1    3450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5FEE0456
+P 3650 2200
+F 0 "D10" V 3696 2120 50  0000 R CNN
+F 1 "D" V 3605 2120 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 3650 2200 50  0001 C CNN
+F 3 "~" H 3650 2200 50  0001 C CNN
+	1    3650 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5FEE045C
+P 4050 2050
+F 0 "SW12" H 4050 2335 50  0000 C CNN
+F 1 "SW_Push" H 4050 2244 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 4050 2250 50  0001 C CNN
+F 3 "~" H 4050 2250 50  0001 C CNN
+	1    4050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5FEE0462
+P 4250 2200
+F 0 "D11" V 4296 2120 50  0000 R CNN
+F 1 "D" V 4205 2120 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 4250 2200 50  0001 C CNN
+F 3 "~" H 4250 2200 50  0001 C CNN
+	1    4250 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5FEE0468
+P 4700 2050
+F 0 "SW13" H 4700 2335 50  0000 C CNN
+F 1 "SW_Push" H 4700 2244 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 4700 2250 50  0001 C CNN
+F 3 "~" H 4700 2250 50  0001 C CNN
+	1    4700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5FEE046E
+P 4900 2200
+F 0 "D12" V 4946 2120 50  0000 R CNN
+F 1 "D" V 4855 2120 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 4900 2200 50  0001 C CNN
+F 3 "~" H 4900 2200 50  0001 C CNN
+	1    4900 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5FEE0474
+P 5350 2050
+F 0 "SW14" H 5350 2335 50  0000 C CNN
+F 1 "SW_Push" H 5350 2244 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 5350 2250 50  0001 C CNN
+F 3 "~" H 5350 2250 50  0001 C CNN
+	1    5350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5FEE047A
+P 5550 2200
+F 0 "D13" V 5596 2120 50  0000 R CNN
+F 1 "D" V 5505 2120 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 5550 2200 50  0001 C CNN
+F 3 "~" H 5550 2200 50  0001 C CNN
+	1    5550 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5FEEC45C
+P 2150 2700
+F 0 "SW16" H 2150 2985 50  0000 C CNN
+F 1 "SW_Push" H 2150 2894 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 2150 2900 50  0001 C CNN
+F 3 "~" H 2150 2900 50  0001 C CNN
+	1    2150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5FEEC462
+P 2350 2850
+F 0 "D15" V 2396 2770 50  0000 R CNN
+F 1 "D" V 2305 2770 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 2350 2850 50  0001 C CNN
+F 3 "~" H 2350 2850 50  0001 C CNN
+	1    2350 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5FEEC468
+P 2800 2700
+F 0 "SW17" H 2800 2985 50  0000 C CNN
+F 1 "SW_Push" H 2800 2894 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 2800 2900 50  0001 C CNN
+F 3 "~" H 2800 2900 50  0001 C CNN
+	1    2800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5FEEC46E
+P 3000 2850
+F 0 "D16" V 3046 2770 50  0000 R CNN
+F 1 "D" V 2955 2770 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 3000 2850 50  0001 C CNN
+F 3 "~" H 3000 2850 50  0001 C CNN
+	1    3000 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5FEEC474
+P 3450 2700
+F 0 "SW18" H 3450 2985 50  0000 C CNN
+F 1 "SW_Push" H 3450 2894 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 3450 2900 50  0001 C CNN
+F 3 "~" H 3450 2900 50  0001 C CNN
+	1    3450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5FEEC47A
+P 3650 2850
+F 0 "D17" V 3696 2770 50  0000 R CNN
+F 1 "D" V 3605 2770 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 3650 2850 50  0001 C CNN
+F 3 "~" H 3650 2850 50  0001 C CNN
+	1    3650 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5FEEC480
+P 4050 2700
+F 0 "SW19" H 4050 2985 50  0000 C CNN
+F 1 "SW_Push" H 4050 2894 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 4050 2900 50  0001 C CNN
+F 3 "~" H 4050 2900 50  0001 C CNN
+	1    4050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5FEEC486
+P 4250 2850
+F 0 "D18" V 4296 2770 50  0000 R CNN
+F 1 "D" V 4205 2770 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 4250 2850 50  0001 C CNN
+F 3 "~" H 4250 2850 50  0001 C CNN
+	1    4250 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5FEEC48C
+P 4700 2700
+F 0 "SW20" H 4700 2985 50  0000 C CNN
+F 1 "SW_Push" H 4700 2894 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 4700 2900 50  0001 C CNN
+F 3 "~" H 4700 2900 50  0001 C CNN
+	1    4700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5FEEC492
+P 4900 2850
+F 0 "D19" V 4946 2770 50  0000 R CNN
+F 1 "D" V 4855 2770 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 4900 2850 50  0001 C CNN
+F 3 "~" H 4900 2850 50  0001 C CNN
+	1    4900 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5FEEC498
+P 5350 2700
+F 0 "SW21" H 5350 2985 50  0000 C CNN
+F 1 "SW_Push" H 5350 2894 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 5350 2900 50  0001 C CNN
+F 3 "~" H 5350 2900 50  0001 C CNN
+	1    5350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5FEEC49E
+P 5550 2850
+F 0 "D20" V 5596 2770 50  0000 R CNN
+F 1 "D" V 5505 2770 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 5550 2850 50  0001 C CNN
+F 3 "~" H 5550 2850 50  0001 C CNN
+	1    5550 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5FEEC4C8
+P 3450 3350
+F 0 "SW23" H 3450 3635 50  0000 C CNN
+F 1 "SW_Push" H 3450 3544 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 3450 3550 50  0001 C CNN
+F 3 "~" H 3450 3550 50  0001 C CNN
+	1    3450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5FEEC4CE
+P 3650 3500
+F 0 "D22" V 3696 3420 50  0000 R CNN
+F 1 "D" V 3605 3420 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 3650 3500 50  0001 C CNN
+F 3 "~" H 3650 3500 50  0001 C CNN
+	1    3650 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5FEEC4D4
+P 4050 3350
+F 0 "SW24" H 4050 3635 50  0000 C CNN
+F 1 "SW_Push" H 4050 3544 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 4050 3550 50  0001 C CNN
+F 3 "~" H 4050 3550 50  0001 C CNN
+	1    4050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5FEEC4DA
+P 4250 3500
+F 0 "D23" V 4296 3420 50  0000 R CNN
+F 1 "D" V 4205 3420 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 4250 3500 50  0001 C CNN
+F 3 "~" H 4250 3500 50  0001 C CNN
+	1    4250 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5FEEC4E0
+P 4700 3350
+F 0 "SW25" H 4700 3635 50  0000 C CNN
+F 1 "SW_Push" H 4700 3544 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 4700 3550 50  0001 C CNN
+F 3 "~" H 4700 3550 50  0001 C CNN
+	1    4700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5FEEC4E6
+P 4900 3500
+F 0 "D24" V 4946 3420 50  0000 R CNN
+F 1 "D" V 4855 3420 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 4900 3500 50  0001 C CNN
+F 3 "~" H 4900 3500 50  0001 C CNN
+	1    4900 3500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1000 1700 0    50   BiDi ~ 0
+row0
+Text GLabel 1000 2350 0    50   BiDi ~ 0
+row1
+Text GLabel 1000 3000 0    50   BiDi ~ 0
+row2
+Text GLabel 1000 3650 0    50   BiDi ~ 0
+row3
+Connection ~ 2350 3000
+Wire Wire Line
+	2350 3000 3000 3000
+Connection ~ 3000 3000
+Wire Wire Line
+	3000 3000 3650 3000
+Connection ~ 3650 3000
+Wire Wire Line
+	3650 3000 4250 3000
+Connection ~ 4250 3000
+Wire Wire Line
+	4250 3000 4900 3000
+Connection ~ 4900 3000
+Wire Wire Line
+	4900 3000 5550 3000
+Wire Wire Line
+	1000 2350 1700 2350
+Connection ~ 1700 2350
+Wire Wire Line
+	1700 2350 2350 2350
+Connection ~ 2350 2350
+Wire Wire Line
+	2350 2350 3000 2350
+Connection ~ 3000 2350
+Wire Wire Line
+	3000 2350 3650 2350
+Connection ~ 3650 2350
+Wire Wire Line
+	3650 2350 4250 2350
+Connection ~ 4250 2350
+Wire Wire Line
+	4250 2350 4900 2350
+Connection ~ 4900 2350
+Wire Wire Line
+	4900 2350 5550 2350
+Wire Wire Line
+	1000 1700 1700 1700
+Connection ~ 1700 1700
+Wire Wire Line
+	1700 1700 2350 1700
+Connection ~ 2350 1700
+Wire Wire Line
+	2350 1700 3000 1700
+Connection ~ 3000 1700
+Wire Wire Line
+	3000 1700 3650 1700
+Connection ~ 3650 1700
+Wire Wire Line
+	3650 1700 4250 1700
+Connection ~ 4250 1700
+Wire Wire Line
+	4250 1700 4900 1700
+Connection ~ 4900 1700
+Wire Wire Line
+	4900 1700 5550 1700
+Text GLabel 1300 4000 3    50   BiDi ~ 0
+col0
+Text GLabel 1950 4000 3    50   BiDi ~ 0
+col1
+Text GLabel 2600 4000 3    50   BiDi ~ 0
+col2
+Text GLabel 3250 4000 3    50   BiDi ~ 0
+col3
+Text GLabel 3850 4000 3    50   BiDi ~ 0
+col4
+Text GLabel 4500 4000 3    50   BiDi ~ 0
+col5
+Text GLabel 5150 4000 3    50   BiDi ~ 0
+col6
+Wire Wire Line
+	1300 1400 1300 2050
+Connection ~ 1300 2050
+Wire Wire Line
+	1950 1400 1950 2050
+Connection ~ 1950 2050
+Wire Wire Line
+	1950 2050 1950 2700
+Connection ~ 1950 2700
+Wire Wire Line
+	1950 2700 1950 4000
+Connection ~ 2600 2050
+Wire Wire Line
+	2600 2050 2600 1400
+Connection ~ 2600 2700
+Wire Wire Line
+	2600 2700 2600 2050
+Wire Wire Line
+	3250 1400 3250 2050
+Connection ~ 3250 2050
+Wire Wire Line
+	3250 2050 3250 2700
+Connection ~ 3250 2700
+Connection ~ 3850 2050
+Wire Wire Line
+	3850 2050 3850 1400
+Connection ~ 3850 2700
+Wire Wire Line
+	3850 2700 3850 2050
+Wire Wire Line
+	4500 1400 4500 2050
+Connection ~ 4500 2050
+Wire Wire Line
+	4500 2050 4500 2700
+Connection ~ 4500 2700
+Connection ~ 5150 2050
+Wire Wire Line
+	5150 2050 5150 1400
+Connection ~ 5150 2700
+Wire Wire Line
+	5150 2700 5150 2050
+$Comp
+L power:GND #PWR0101
+U 1 1 5FF17B31
+P 8200 2000
+F 0 "#PWR0101" H 8200 1750 50  0001 C CNN
+F 1 "GND" V 8205 1872 50  0000 R CNN
+F 2 "" H 8200 2000 50  0001 C CNN
+F 3 "" H 8200 2000 50  0001 C CNN
+	1    8200 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5FF18256
+P 8200 1900
+F 0 "#PWR0102" H 8200 1650 50  0001 C CNN
+F 1 "GND" V 8205 1772 50  0000 R CNN
+F 2 "" H 8200 1900 50  0001 C CNN
+F 3 "" H 8200 1900 50  0001 C CNN
+	1    8200 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L keebio:ProMicro U2
+U 1 1 5FECF752
+P 8900 2250
+F 0 "U2" H 8900 3087 60  0000 C CNN
+F 1 "ProMicro" H 8900 2981 60  0000 C CNN
+F 2 "MushyCloud:ArduinoProMicro-ZigZag-NoSilk" V 9950 -250 60  0001 C CNN
+F 3 "" V 9950 -250 60  0001 C CNN
+	1    8900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5FF194D2
+P 9600 1800
+F 0 "#PWR0103" H 9600 1550 50  0001 C CNN
+F 1 "GND" V 9605 1672 50  0000 R CNN
+F 2 "" H 9600 1800 50  0001 C CNN
+F 3 "" H 9600 1800 50  0001 C CNN
+	1    9600 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5FF1A0A4
+P 9600 2000
+F 0 "#PWR0104" H 9600 1850 50  0001 C CNN
+F 1 "VCC" V 9615 2128 50  0000 L CNN
+F 2 "" H 9600 2000 50  0001 C CNN
+F 3 "" H 9600 2000 50  0001 C CNN
+	1    9600 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FF1C841
+P 10150 1750
+F 0 "#PWR0105" H 10150 1500 50  0001 C CNN
+F 1 "GND" H 10155 1577 50  0000 C CNN
+F 2 "" H 10150 1750 50  0001 C CNN
+F 3 "" H 10150 1750 50  0001 C CNN
+	1    10150 1750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8200 1700
+NoConn ~ 9600 1700
+NoConn ~ 9600 2800
+NoConn ~ 8200 2700
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FF20B3F
+P 9800 850
+F 0 "#FLG0101" H 9800 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 9800 1023 50  0000 C CNN
+F 2 "" H 9800 850 50  0001 C CNN
+F 3 "~" H 9800 850 50  0001 C CNN
+	1    9800 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FF2118F
+P 10200 850
+F 0 "#FLG0102" H 10200 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 10200 1023 50  0000 C CNN
+F 2 "" H 10200 850 50  0001 C CNN
+F 3 "~" H 10200 850 50  0001 C CNN
+	1    10200 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5FF21850
+P 9800 850
+F 0 "#PWR0106" H 9800 600 50  0001 C CNN
+F 1 "GND" H 9805 677 50  0000 C CNN
+F 2 "" H 9800 850 50  0001 C CNN
+F 3 "" H 9800 850 50  0001 C CNN
+	1    9800 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5FF220A8
+P 10200 850
+F 0 "#PWR0107" H 10200 700 50  0001 C CNN
+F 1 "VCC" H 10215 1023 50  0000 C CNN
+F 2 "" H 10200 850 50  0001 C CNN
+F 3 "" H 10200 850 50  0001 C CNN
+	1    10200 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4050 7400 4050
+Wire Wire Line
+	7400 4250 7700 4250
+$Comp
+L power:GND #PWR0108
+U 1 1 5FF3AE13
+P 7700 4250
+F 0 "#PWR0108" H 7700 4000 50  0001 C CNN
+F 1 "GND" H 7705 4077 50  0000 C CNN
+F 2 "" H 7700 4250 50  0001 C CNN
+F 3 "" H 7700 4250 50  0001 C CNN
+	1    7700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 5FF3B352
+P 7700 4050
+F 0 "#PWR0109" H 7700 3900 50  0001 C CNN
+F 1 "VCC" H 7715 4223 50  0000 C CNN
+F 2 "" H 7700 4050 50  0001 C CNN
+F 3 "" H 7700 4050 50  0001 C CNN
+	1    7700 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9600 2100 2    50   BiDi ~ 0
+col0
+Text GLabel 9600 2200 2    50   BiDi ~ 0
+col1
+Text GLabel 9600 2300 2    50   BiDi ~ 0
+col2
+Text GLabel 9600 2400 2    50   BiDi ~ 0
+col3
+Text GLabel 9600 2500 2    50   BiDi ~ 0
+col4
+Text GLabel 9600 2600 2    50   BiDi ~ 0
+col5
+Text GLabel 9600 2700 2    50   BiDi ~ 0
+col6
+Text GLabel 8200 2300 0    50   BiDi ~ 0
+row0
+Text GLabel 8200 2400 0    50   BiDi ~ 0
+row1
+Text GLabel 8200 2500 0    50   BiDi ~ 0
+row2
+Text GLabel 8200 2600 0    50   BiDi ~ 0
+row3
+Text GLabel 7550 1800 0    50   BiDi ~ 0
+data
+Wire Wire Line
+	7400 4150 7700 4150
+Text GLabel 7700 4150 2    50   BiDi ~ 0
+data
+$Comp
+L Switch:SW_Push SW22
+U 1 1 60064DC6
+P 2800 3350
+F 0 "SW22" H 2800 3635 50  0000 C CNN
+F 1 "SW_Push" H 2800 3544 50  0000 C CNN
+F 2 "MushyCloud:Kailh-PG1350-1u-reversible-No-Clickhole-NoLED" H 2800 3550 50  0001 C CNN
+F 3 "~" H 2800 3550 50  0001 C CNN
+	1    2800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 60064DCC
+P 3000 3500
+F 0 "D21" V 3046 3420 50  0000 R CNN
+F 1 "D" V 2955 3420 50  0000 R CNN
+F 2 "MushyCloud:Diode" H 3000 3500 50  0001 C CNN
+F 3 "~" H 3000 3500 50  0001 C CNN
+	1    3000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5FF1C1D3
+P 9700 3900
+F 0 "J1" H 9672 3832 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9672 3923 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9700 3900 50  0001 C CNN
+F 3 "~" H 9700 3900 50  0001 C CNN
+	1    9700 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0112
+U 1 1 5FF27F55
+P 9500 3800
+F 0 "#PWR0112" H 9500 3650 50  0001 C CNN
+F 1 "VCC" V 9515 3927 50  0000 L CNN
+F 2 "" H 9500 3800 50  0001 C CNN
+F 3 "" H 9500 3800 50  0001 C CNN
+	1    9500 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5FF28A67
+P 9500 4000
+F 0 "#PWR0113" H 9500 3750 50  0001 C CNN
+F 1 "GND" V 9505 3872 50  0000 R CNN
+F 2 "" H 9500 4000 50  0001 C CNN
+F 3 "" H 9500 4000 50  0001 C CNN
+	1    9500 4000
+	0    1    1    0   
+$EndComp
+Text GLabel 9500 3900 0    50   BiDi ~ 0
+pdata
+Text GLabel 8200 2800 0    50   BiDi ~ 0
+pdata
+Wire Wire Line
+	1000 3650 3000 3650
+Wire Wire Line
+	2600 2700 2600 3350
+Connection ~ 2600 3350
+Wire Wire Line
+	2600 3350 2600 4000
+Connection ~ 3000 3650
+Wire Wire Line
+	3250 2700 3250 3350
+Wire Wire Line
+	3000 3650 3650 3650
+Connection ~ 3250 3350
+Wire Wire Line
+	3250 3350 3250 4000
+Connection ~ 3650 3650
+Wire Wire Line
+	3850 2700 3850 3350
+Wire Wire Line
+	3650 3650 4250 3650
+Connection ~ 3850 3350
+Wire Wire Line
+	3850 3350 3850 4000
+Connection ~ 4250 3650
+Wire Wire Line
+	4500 2700 4500 3350
+Wire Wire Line
+	4250 3650 4900 3650
+Connection ~ 4500 3350
+Wire Wire Line
+	4500 3350 4500 4000
+Connection ~ 4900 3650
+Wire Wire Line
+	4900 3650 5550 3650
+Wire Wire Line
+	5150 2700 5150 4000
+Wire Wire Line
+	1300 2050 1300 4000
+Wire Wire Line
+	1000 3000 2350 3000
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5FF17C0F
+P 10150 1550
+F 0 "J3" V 10212 1594 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 10303 1594 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 10150 1550 50  0001 C CNN
+F 3 "~" H 10150 1550 50  0001 C CNN
+	1    10150 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 1900 10050 1750
+Wire Wire Line
+	9600 1900 10050 1900
+Wire Wire Line
+	7550 1800 8200 1800
+$Comp
+L Connector:AudioJack3 J2
+U 1 1 5FFBBF42
+P 7200 4150
+F 0 "J2" H 7182 4475 50  0000 C CNN
+F 1 "AudioJack3" H 7182 4384 50  0000 C CNN
+F 2 "MushyCloud:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 7200 4150 50  0001 C CNN
+F 3 "~" H 7200 4150 50  0001 C CNN
+	1    7200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5FF82FEC
+P 6850 2200
+F 0 "J4" H 6958 2481 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 6958 2390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6850 2200 50  0001 C CNN
+F 3 "~" H 6850 2200 50  0001 C CNN
+	1    6850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 5FF8644F
+P 7050 2300
+F 0 "#PWR0110" H 7050 2150 50  0001 C CNN
+F 1 "VCC" V 7065 2428 50  0000 L CNN
+F 2 "" H 7050 2300 50  0001 C CNN
+F 3 "" H 7050 2300 50  0001 C CNN
+	1    7050 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5FF86B7B
+P 7050 2400
+F 0 "#PWR0111" H 7050 2150 50  0001 C CNN
+F 1 "GND" V 7055 2272 50  0000 R CNN
+F 2 "" H 7050 2400 50  0001 C CNN
+F 3 "" H 7050 2400 50  0001 C CNN
+	1    7050 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 2200 8200 2200
+Wire Wire Line
+	8200 2100 7050 2100
+$EndSCHEMATC
