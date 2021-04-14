@@ -1,28 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_AudioJack3
-#
-DEF Connector_AudioJack3 J 0 20 Y Y 1 F N
-F0 "J" 0 350 50 H V C CNN
-F1 "Connector_AudioJack3" 0 250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Jack*
-$ENDFPLIST
-DRAW
-S -200 -200 -250 -100 0 1 10 F
-S 100 150 -200 -200 0 1 10 f
-P 4 0 1 10 0 -100 25 -125 50 -100 100 -100 N
-P 5 0 1 10 -75 -100 -50 -125 -25 -100 -25 0 100 0 N
-P 5 0 1 10 100 100 -100 100 -100 -100 -125 -125 -150 -100 N
-X ~ R 200 0 100 L 50 50 1 1 P
-X ~ S 200 100 100 L 50 50 1 1 P
-X ~ T 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Conn_01x02_Male
 #
 DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
@@ -114,28 +92,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_Push
+# MushyCloud-components_ProMicro
 #
-DEF Switch_SW_Push SW 0 40 N N 1 F N
-F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
-DRAW
-C -80 0 20 0 1 0 N
-C 80 0 20 0 1 0 N
-P 2 0 1 0 0 50 0 120 N
-P 2 0 1 0 100 50 -100 50 N
-X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# keebio_ProMicro
-#
-DEF keebio_ProMicro U 0 40 Y Y 1 F N
+DEF MushyCloud-components_ProMicro U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "keebio_ProMicro" 0 -750 60 H V C CNN
+F1 "MushyCloud-components_ProMicro" 0 -750 60 H V C CNN
 F2 "" 1050 -2500 60 V I C CNN
 F3 "" 1050 -2500 60 V I C CNN
 DRAW
@@ -164,6 +125,23 @@ X 3/PD0 6 -700 50 200 R 50 50 1 1 I
 X 4/PD4 7 -700 -50 200 R 50 50 1 1 I
 X 5/PC6 8 -700 -150 200 R 50 50 1 1 I
 X 6/PD7 9 -700 -250 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #

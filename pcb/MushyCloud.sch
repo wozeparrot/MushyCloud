@@ -660,7 +660,7 @@ F 3 "" H 8200 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L keebio:ProMicro U2
+L MushyCloud-components:ProMicro U2
 U 1 1 5FECF752
 P 8900 2250
 F 0 "U2" H 8900 3087 60  0000 C CNN
@@ -703,7 +703,6 @@ F 3 "" H 10150 1750 50  0001 C CNN
 	1    10150 1750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8200 1700
 NoConn ~ 9600 1700
 NoConn ~ 9600 2800
 NoConn ~ 8200 2700
@@ -751,32 +750,6 @@ F 3 "" H 10200 850 50  0001 C CNN
 	1    10200 850 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7700 4050 7400 4050
-Wire Wire Line
-	7400 4250 7700 4250
-$Comp
-L power:GND #PWR0108
-U 1 1 5FF3AE13
-P 7700 4250
-F 0 "#PWR0108" H 7700 4000 50  0001 C CNN
-F 1 "GND" H 7705 4077 50  0000 C CNN
-F 2 "" H 7700 4250 50  0001 C CNN
-F 3 "" H 7700 4250 50  0001 C CNN
-	1    7700 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0109
-U 1 1 5FF3B352
-P 7700 4050
-F 0 "#PWR0109" H 7700 3900 50  0001 C CNN
-F 1 "VCC" H 7715 4223 50  0000 C CNN
-F 2 "" H 7700 4050 50  0001 C CNN
-F 3 "" H 7700 4050 50  0001 C CNN
-	1    7700 4050
-	1    0    0    -1  
-$EndComp
 Text GLabel 9600 2100 2    50   BiDi ~ 0
 col0
 Text GLabel 9600 2200 2    50   BiDi ~ 0
@@ -799,12 +772,6 @@ Text GLabel 8200 2500 0    50   BiDi ~ 0
 row2
 Text GLabel 8200 2600 0    50   BiDi ~ 0
 row3
-Text GLabel 7550 1800 0    50   BiDi ~ 0
-data
-Wire Wire Line
-	7400 4150 7700 4150
-Text GLabel 7700 4150 2    50   BiDi ~ 0
-data
 $Comp
 L Switch:SW_Push SW22
 U 1 1 60064DC6
@@ -919,19 +886,6 @@ Wire Wire Line
 	10050 1900 10050 1750
 Wire Wire Line
 	9600 1900 10050 1900
-Wire Wire Line
-	7550 1800 8200 1800
-$Comp
-L Connector:AudioJack3 J2
-U 1 1 5FFBBF42
-P 7200 4150
-F 0 "J2" H 7182 4475 50  0000 C CNN
-F 1 "AudioJack3" H 7182 4384 50  0000 C CNN
-F 2 "MushyCloud:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 7200 4150 50  0001 C CNN
-F 3 "~" H 7200 4150 50  0001 C CNN
-	1    7200 4150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_01x04_Male J4
 U 1 1 5FF82FEC
@@ -969,4 +923,49 @@ Wire Wire Line
 	7050 2200 8200 2200
 Wire Wire Line
 	8200 2100 7050 2100
+Text GLabel 7550 1700 0    50   BiDi ~ 0
+tx
+Text GLabel 7550 1800 0    50   BiDi ~ 0
+rx
+Wire Wire Line
+	8200 1700 7550 1700
+Wire Wire Line
+	7550 1800 8200 1800
+Text GLabel 7100 3850 2    50   BiDi ~ 0
+tx
+Text GLabel 7100 3950 2    50   BiDi ~ 0
+rx
+$Comp
+L power:VCC #PWR0108
+U 1 1 5FFB0551
+P 7100 3750
+F 0 "#PWR0108" H 7100 3600 50  0001 C CNN
+F 1 "VCC" V 7115 3878 50  0000 L CNN
+F 2 "" H 7100 3750 50  0001 C CNN
+F 3 "" H 7100 3750 50  0001 C CNN
+	1    7100 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5FFB105B
+P 7100 3650
+F 0 "#PWR0109" H 7100 3400 50  0001 C CNN
+F 1 "GND" V 7105 3522 50  0000 R CNN
+F 2 "" H 7100 3650 50  0001 C CNN
+F 3 "" H 7100 3650 50  0001 C CNN
+	1    7100 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5FFFC688
+P 6900 3750
+F 0 "J2" H 7008 4031 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 7008 3940 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 6900 3750 50  0001 C CNN
+F 3 "~" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

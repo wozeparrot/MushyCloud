@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name keebio)(type Legacy)(uri ${KIPRJMOD}/keebio-components/keebio.lib)(options "")(descr ""))
+  (lib (name MushyCloud-components)(type Legacy)(uri ${KIPRJMOD}/MushyCloud-components/MushyCloud-components.lib)(options "")(descr ""))
 )
