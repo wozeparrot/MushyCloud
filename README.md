@@ -5,7 +5,7 @@
 A low profile 48 key ergonomic split keyboard.
 
 Designed for Kailh choc switches to be super low profile.
-Designed to be fairly modular, with optional OLED, encoder, and RGB LED strips.
+Fairly simplistic with an optional OLED display.
 
 ## Building
 
